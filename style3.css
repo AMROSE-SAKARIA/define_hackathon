@@ -1,0 +1,76 @@
+h1{
+    text-align: center;
+}
+.container
+{
+    background-color:rgb(236, 249, 249);
+    width: 410px;
+    height: 600px;
+    margin:auto;
+    padding: 10px;
+    border-radius: 1rem;
+    border: 150px black;
+    margin-right: 250px;
+    margin-top: 55px;
+}
+
+#form button{
+    background-color: rgb(252, 168, 49);
+    padding: 10px;
+    width: 400px;
+    border-radius: 3rem;
+    margin-top: 15px;
+    font-size: large;
+    font-weight: bold;
+}
+.input-control input {
+    border: 2px solid #787272;
+	border-radius: 10px;
+	display:block;
+	font-size: 15px;
+	padding: 10px;
+	width: 350px;
+    text-align: center;
+    
+
+}
+body {
+    background:rgb(234, 243, 171);
+    font-family: 'Poppins', sans-serif;
+    background-image: url('kathakali-removebg-preview.png');
+    background-repeat: no-repeat;
+    background-size: 850px;
+
+}
+.input-control input:focus {
+    outline: 0;
+}
+
+.input-control.success input {
+    border-color: #239606;
+}
+
+.input-control.error input {
+    border-color: #ff3860;
+}
+
+.input-control .error {
+    color: #ff3860;
+    font-size: 15px;
+    height: 13px;
+    text-align: right;
+}
+#home li
+{
+    display: inline-block; /* Display menu items horizontally */
+    margin-right: 20px; /* Add spacing between menu items */
+   margin-bottom: 12px;
+}
+#home li a{
+    text-decoration: none;
+    color: #148ddf;
+    font-weight: normal;
+   margin-top: 25px;
+   -webkit-text-stroke-width:.5px ;
+  margin-left: 135px;
+}

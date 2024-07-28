@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translator</title>
+    <link rel="stylesheet" href="lang.css">
+</head>
+<body>
+ <div class="container">   
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+
+    <h1 class="heading">Let's Learn</h1>
+    
+
+    <main>
+        <div class="translator-container">
+            <div class="language-select">
+                <label for="source-lang">From:</label>
+                <select id="source-lang">
+                    <option value="en">Irula</option>
+                    <option value="es">Kurukh</option>
+                    <option value="fr">Koro</option>
+                </select>
+            </div>
+            <div class="text-input">
+                <textarea id="source-text" placeholder="Enter text to translate..."></textarea>
+            </div>
+            <div class="language-select">
+                <label for="target-lang">To:</label>
+                <select id="target-lang">
+                    <option value="es">Spanish</option>
+                    <option value="fr">French</option>
+                    <option value="en">English</option>
+                </select>
+            </div>
+            <div class="text-output">
+                <textarea id="target-text" placeholder="Translation..."></textarea>
+            </div>
+            <button id="translate-btn">Translate</button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</div>
+</body>
+</html>
